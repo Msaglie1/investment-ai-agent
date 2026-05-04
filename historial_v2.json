@@ -119,6 +119,30 @@
         "Volumen 1.0x normal — entrada sin exceso especulativo",
         "Petróleo $101.8 puede impulsar narrativa EV"
       ]
+    },
+    {
+      "id": "AAPL_2026-05-03 23:28",
+      "ticker": "AAPL",
+      "tipo": "compra",
+      "modo": "paper",
+      "fecha_entrada": "2026-05-03 23:28",
+      "precio_entrada": 272.0,
+      "precio_objetivo": 295.0,
+      "stop_loss": 253.5,
+      "cantidad": 3,
+      "capital_invertido": 816.0,
+      "confianza": "MEDIA",
+      "estado": "abierta",
+      "justificacion": "AAPL presenta una confluencia técnica interesante pero requiere entrada táctica más conservadora. RSI en 69.3 está neutral-alto pero no sobrecomprado como en ciclos anteriores. MACD alcista con cruce positivo (4.365 vs 3.460), precio sobre MA20 ($266.4) y MA50 ($261.2) confirman tendencia estructural intacta. El volumen de 1.7x promedio es señal de interés institucional genuino. Sin embargo, el precio actual ($280.14) está tocando el techo de Bollinger y la resistencia técnica, por lo que se sugiere esperar pullback hacia $272 (entre MA20 y precio actual) para una entrada con mejor ratio riesgo/recompensa. Fundamentales sólidos: P/E de 33.9 razonable para su sector, margen neto 27.2%, beta 1.11 manejable, market cap $4.1T con posición de liquidez fuerte. El dólar débil (DXY 98.2) favorece sus ingresos internacionales. Riesgo principal: estacionalidad desfavorable y precio cerca de resistencia.",
+      "factores": [
+        "MACD alcista",
+        "Precio sobre MA20 y MA50",
+        "Volumen 1.7x alto",
+        "Beta controlada 1.11",
+        "Fundamentales sólidos P/E 33.9",
+        "Dólar débil favorece ingresos internacionales",
+        "RSI 69.3 no sobrecomprado aún"
+      ]
     }
   ],
   "reportes": [
@@ -281,10 +305,64 @@
       "nivel_riesgo": "BAJO",
       "vix": 16.989999771118164,
       "fear_greed": 65
+    },
+    {
+      "fecha": "2026-05-03 23:28",
+      "analisis": {
+        "resumen_mercado": "El mercado mantiene un sesgo alcista moderado con S&P 500 +11.12% en 30 días y Fear&Greed en 65/100, pero las señales defensivas persisten: oro en $4,620, DXY débil en 98.2 y estacionalidad históricamente desfavorable (mayo-octubre) exigen selectividad y gestión de riesgo estricta. Las posiciones actuales muestran señales mixtas que requieren monitoreo activo, con META bajo sus medias móviles y JNJ acercándose a zona de soporte crítica.",
+        "nivel_riesgo": "MEDIO",
+        "señales_compra": [
+          {
+            "ticker": "AAPL",
+            "precio_entrada_sugerido": 272.0,
+            "precio_objetivo": 295.0,
+            "stop_loss": 253.5,
+            "capital_asignar_pct": 8,
+            "confianza": "MEDIA",
+            "justificacion": "AAPL presenta una confluencia técnica interesante pero requiere entrada táctica más conservadora. RSI en 69.3 está neutral-alto pero no sobrecomprado como en ciclos anteriores. MACD alcista con cruce positivo (4.365 vs 3.460), precio sobre MA20 ($266.4) y MA50 ($261.2) confirman tendencia estructural intacta. El volumen de 1.7x promedio es señal de interés institucional genuino. Sin embargo, el precio actual ($280.14) está tocando el techo de Bollinger y la resistencia técnica, por lo que se sugiere esperar pullback hacia $272 (entre MA20 y precio actual) para una entrada con mejor ratio riesgo/recompensa. Fundamentales sólidos: P/E de 33.9 razonable para su sector, margen neto 27.2%, beta 1.11 manejable, market cap $4.1T con posición de liquidez fuerte. El dólar débil (DXY 98.2) favorece sus ingresos internacionales. Riesgo principal: estacionalidad desfavorable y precio cerca de resistencia.",
+            "factores": [
+              "MACD alcista",
+              "Precio sobre MA20 y MA50",
+              "Volumen 1.7x alto",
+              "Beta controlada 1.11",
+              "Fundamentales sólidos P/E 33.9",
+              "Dólar débil favorece ingresos internacionales",
+              "RSI 69.3 no sobrecomprado aún"
+            ]
+          }
+        ],
+        "señales_venta": [
+          {
+            "ticker": "META",
+            "razon": "META muestra deterioro técnico significativo que activa protocolo de revisión urgente. El precio actual ($608.75, entrada exacta) está un 6% por debajo de MA20 ($647.1) y bajo MA50 ($630.1), con MACD profundamente bajista (6.795 vs señal 12.129, divergencia de -5.334 puntos). La caída de -9.8% en 5 días con volumen 1.3x promedio indica presión vendedora institucional activa, no ruido aleatorio. El aprendizaje acumulado es explícito: cuando el precio está bajo MA20 y MA50 con MACD divergiendo negativamente y volumen vendedor elevado, salir en breakeven es gestión de riesgo profesional. Actualmente el precio ($608.75) está exactamente en la entrada, lo que representa la ventana óptima de salida antes de que el stop en $570 sea activado (riesgo de -$38.75 por acción). El objetivo original de $660 requeriría una recuperación del 8.4% desde niveles actuales contra la tendencia técnica dominante. El ratio riesgo/recompensa se ha deteriorado materialmente desde la entrada. Recomendación: CERRAR en mercado al precio actual (~$608.75), preservar capital y reasignarlo a setups con mayor confluencia técnica."
+          },
+          {
+            "ticker": "JNJ",
+            "razon": "JNJ presenta señales de debilidad técnica que se han agravado desde la entrada. RSI en 34.2 se acerca a territorio de sobreventa pero el contexto es bajista estructural, no de rebote: precio bajo MA20 ($233.2) y MA50 ($238.5), MACD negativo y divergiendo más (-3.243 vs señal -2.788), tendencia de 20 días de -6.5%. El precio actual ($227.19) está apenas $5.69 sobre el stop en $221 y $1.89 sobre el soporte técnico en $225.3. La posición está atrapada entre un stop cercano y una tendencia bajista activa. Aunque la tesis original de diversificación defensiva era válida, la ejecución muestra que JNJ está en corrección activa, no en consolidación. Opción A: Cerrar posición en $227.19 con pérdida mínima de ~$0.69 por acción vs riesgo de activar stop en $221 (-$5.50 adicionales). Opción B: Ajustar stop a $225.00 (soporte técnico) para dar mínimo espacio de maniobra y salir si ese nivel cede. Se recomienda Opción A — salir ahora con pérdida controlada antes de que el deterioro técnico se acelere."
+          }
+        ],
+        "acciones_mantener": [
+          "MSFT",
+          "NVDA",
+          "TSLA"
+        ],
+        "distribucion_capital": {
+          "en_operaciones": 52,
+          "en_caja": 48,
+          "nota": "Tras cerrar META y JNJ (liberando ~$1,235 + ~$680 = ~$1,915 en capital), la caja se fortalece al ~48%. Con estacionalidad desfavorable activa y múltiples señales mixtas en el portafolio, mantener reserva elevada es una ventaja táctica, no una debilidad. Se asigna ~8% a AAPL en pullback ($272) si se produce, manteniendo el resto como munición para oportunidades con mayor confluencia. MSFT ($414.44, RSI 62.9, MACD alcista, sobre MA20/50) y NVDA ($198.45, precio sobre MA20 $197.2) mantienen su tesis intacta con stops definidos. TSLA ($390.82) muestra momentum positivo con MACD girando alcista y precio sobre MA20, acercándose al objetivo $400.60 — monitorear para salida parcial en objetivo."
+        },
+        "aprendizaje_del_dia": "El breakeven no es el único punto de salida racional — la salida óptima ocurre ANTES de que el deterioro técnico se profundice, no cuando ya ocurrió. META enseña que cuando precio, MAs, MACD y volumen vendedor convergen bajistas simultáneamente, cada día adicional en la posición aumenta la probabilidad de activar el stop en lugar de recuperar el objetivo. La gestión de riesgo profesional no espera confirmación de pérdida — anticipa el escenario de mayor probabilidad con los datos disponibles y actúa. Adicionalmente: las posiciones defensivas (JNJ) tienen que elegirse en momentos de consolidación lateral, no en tendencias bajistas activas — el activo defensivo correcto en el momento equivocado no cumple su función de amortiguador.",
+        "alerta_critica": "META en zona de decisión crítica: precio exactamente en entrada ($608.75) con deterioro técnico severo (MACD -5.33 de divergencia, -9.8% en 5 días, bajo MA20 y MA50). La ventana de salida en breakeven puede cerrarse en las próximas sesiones si el deterioro continúa. Acción recomendada: ejecutar cierre de META al inicio de la próxima sesión para preservar capital antes de que el stop en $570 sea activado, lo que representaría una pérdida de ~$1,900 en capital asignado. El costo de no actuar supera significativamente al costo de salir ahora."
+      },
+      "resumen_breve": "El mercado mantiene un sesgo alcista moderado con S&P 500 +11.12% en 30 días y Fear&Greed en 65/100, pero las señales defensivas persisten: oro en $4,620, DXY débil en 98.2 y estacionalidad históricamente desfavorable (mayo-octubre) exigen selectividad y gestión de riesgo estricta. Las posiciones actuales muestran señales mixtas que requieren monitoreo activo, con META bajo sus medias móviles y JNJ acercándose a zona de soporte crítica.",
+      "nivel_riesgo": "BAJO",
+      "vix": 16.989999771118164,
+      "fear_greed": 65
     }
   ],
   "aprendizajes": [
     "2026-05-03: La sobrecompra simultánea de GOOGL (RSI 86.9) y AMZN (RSI 82.9) en un contexto de estacionalidad desfavorable enseña que el momentum fuerte no siempre es señal de compra — a veces es señal de que el tren ya salió. Las mejores entradas están en activos con fundamentales sólidos que han corregido moderadamente (MSFT -2.4%, NVDA -4.7%) manteniendo su tendencia estructural intacta. Pagar por sobrecompra extrema en zona de resistencia es el error más común en mercados alcistas extendidos.",
-    "2026-05-03: El breakeven es una salida válida y racional: cuando una posición alcanza su entrada con el contexto técnico deteriorado (precio bajo MA20 y MA50, MACD divergiendo negativamente, volumen vendedor elevado), salir en cero no es un fracaso — es gestión de riesgo profesional. El ego quiere recuperar ganancias que nunca existieron; el sistema racional reconoce que el capital preservado en caja tiene más valor que el capital atrapado en una tendencia bajista esperando una recuperación incierta. Además, la diversificación sectorial con activos defensivos (JNJ) en periodos de estacionalidad desfavorable no es pesimismo — es arquitectura de portafolio inteligente que reduce la correlación y amortigua drawdowns."
+    "2026-05-03: El breakeven es una salida válida y racional: cuando una posición alcanza su entrada con el contexto técnico deteriorado (precio bajo MA20 y MA50, MACD divergiendo negativamente, volumen vendedor elevado), salir en cero no es un fracaso — es gestión de riesgo profesional. El ego quiere recuperar ganancias que nunca existieron; el sistema racional reconoce que el capital preservado en caja tiene más valor que el capital atrapado en una tendencia bajista esperando una recuperación incierta. Además, la diversificación sectorial con activos defensivos (JNJ) en periodos de estacionalidad desfavorable no es pesimismo — es arquitectura de portafolio inteligente que reduce la correlación y amortigua drawdowns.",
+    "2026-05-03: El breakeven no es el único punto de salida racional — la salida óptima ocurre ANTES de que el deterioro técnico se profundice, no cuando ya ocurrió. META enseña que cuando precio, MAs, MACD y volumen vendedor convergen bajistas simultáneamente, cada día adicional en la posición aumenta la probabilidad de activar el stop en lugar de recuperar el objetivo. La gestión de riesgo profesional no espera confirmación de pérdida — anticipa el escenario de mayor probabilidad con los datos disponibles y actúa. Adicionalmente: las posiciones defensivas (JNJ) tienen que elegirse en momentos de consolidación lateral, no en tendencias bajistas activas — el activo defensivo correcto en el momento equivocado no cumple su función de amortiguador."
   ]
 }
