@@ -73,6 +73,52 @@
         "Price en zona media-baja de Bollinger",
         "EPS $27.52 — generación de valor sólida"
       ]
+    },
+    {
+      "id": "JNJ_2026-05-03 23:21",
+      "ticker": "JNJ",
+      "tipo": "compra",
+      "modo": "paper",
+      "fecha_entrada": "2026-05-03 23:21",
+      "precio_entrada": 226.5,
+      "precio_objetivo": 241.3,
+      "stop_loss": 221.0,
+      "cantidad": 3,
+      "capital_invertido": 679.5,
+      "confianza": "MEDIA",
+      "estado": "abierta",
+      "justificacion": "JNJ ofrece una confluencia defensiva valiosa en el contexto actual: RSI en 34.2 indica que está cerca de zona de sobreventa sin haberla tocado aún, el precio está cerca del piso de Bollinger ($221.4) y del soporte clave en $225.3, lo que limita el downside. Con beta 0.33 es el activo de menor volatilidad del universo analizado, ideal como cobertura ante la estacionalidad desfavorable. El dólar débil y el oro alto sugieren que el mercado busca activos defensivos. El sector salud históricamente outperforma en periodos mayo-octubre. P/E de 26.3 con margen neto 21.8% es razonable para un blue chip healthcare. La caída de -6.5% en 20 días y -0.1% en 5 días sugiere que la presión vendedora se está agotando. El MACD bajista es la señal negativa principal, por lo que la posición se mantiene pequeña al 8% hasta confirmar reversión.",
+      "factores": [
+        "RSI 34.2 cerca de sobreventa — posible agotamiento bajista",
+        "Precio en soporte $225.3 y cerca piso Bollinger $221.4",
+        "Beta 0.33 — cobertura defensiva ante estacionalidad desfavorable",
+        "Oro alto + DXY débil = flujo hacia activos defensivos",
+        "Sector salud históricamente fuerte en mayo-octubre",
+        "Caída -6.5% en 20 días ofrece entrada con margen de seguridad"
+      ]
+    },
+    {
+      "id": "TSLA_2026-05-03 23:21",
+      "ticker": "TSLA",
+      "tipo": "compra",
+      "modo": "paper",
+      "fecha_entrada": "2026-05-03 23:21",
+      "precio_entrada": 388.0,
+      "precio_objetivo": 400.6,
+      "stop_loss": 370.0,
+      "cantidad": 1,
+      "capital_invertido": 388.0,
+      "confianza": "MEDIA",
+      "estado": "abierta",
+      "justificacion": "TSLA muestra una configuración técnica atractiva de corto plazo: MACD cruzó al alza (0.726 vs señal -1.170) confirmando cambio de momentum, RSI en 67.1 tiene espacio antes de sobrecompra, precio sobre MA20 ($372.6) con MA50 en $383.7 actuando como soporte dinámico. El objetivo en $400.6 es la resistencia técnica clara con risk/reward de 1.6x. Sin embargo, los fundamentales son débiles (P/E 358.6, margen neto 3.9%) y la beta 1.92 implica alta volatilidad, por eso el tamaño de posición es pequeño (7%) con stop estricto. El petróleo en $101.8 es un riesgo para TSLA por la narrativa EV vs combustión, pero también puede acelerar la demanda de vehículos eléctricos. Posición táctica de corto plazo, no estratégica.",
+      "factores": [
+        "MACD cruzó alcista confirmando cambio de momentum",
+        "RSI 67.1 neutral con espacio hasta sobrecompra",
+        "Precio sobre MA20 con tendencia intacta +8.4% en 20 días",
+        "Resistencia clara en $400.6 — objetivo definido",
+        "Volumen 1.0x normal — entrada sin exceso especulativo",
+        "Petróleo $101.8 puede impulsar narrativa EV"
+      ]
     }
   ],
   "reportes": [
@@ -171,9 +217,74 @@
       "nivel_riesgo": "BAJO",
       "vix": 16.989999771118164,
       "fear_greed": 65
+    },
+    {
+      "fecha": "2026-05-03 23:21",
+      "analisis": {
+        "resumen_mercado": "El mercado presenta un sesgo alcista moderado con S&P 500 +11.12% en 30 días y Fear&Greed en 65/100, pero señales defensivas persisten: oro en $4,619, dólar débil (DXY 98.2) y estacionalidad históricamente desfavorable (mayo-octubre) exigen selectividad. Las posiciones actuales en MSFT, NVDA y META muestran señales técnicas mixtas que requieren monitoreo activo antes de expandir exposición.",
+        "nivel_riesgo": "MEDIO",
+        "señales_compra": [
+          {
+            "ticker": "JNJ",
+            "precio_entrada_sugerido": 226.5,
+            "precio_objetivo": 241.3,
+            "stop_loss": 221.0,
+            "capital_asignar_pct": 8,
+            "confianza": "MEDIA",
+            "justificacion": "JNJ ofrece una confluencia defensiva valiosa en el contexto actual: RSI en 34.2 indica que está cerca de zona de sobreventa sin haberla tocado aún, el precio está cerca del piso de Bollinger ($221.4) y del soporte clave en $225.3, lo que limita el downside. Con beta 0.33 es el activo de menor volatilidad del universo analizado, ideal como cobertura ante la estacionalidad desfavorable. El dólar débil y el oro alto sugieren que el mercado busca activos defensivos. El sector salud históricamente outperforma en periodos mayo-octubre. P/E de 26.3 con margen neto 21.8% es razonable para un blue chip healthcare. La caída de -6.5% en 20 días y -0.1% en 5 días sugiere que la presión vendedora se está agotando. El MACD bajista es la señal negativa principal, por lo que la posición se mantiene pequeña al 8% hasta confirmar reversión.",
+            "factores": [
+              "RSI 34.2 cerca de sobreventa — posible agotamiento bajista",
+              "Precio en soporte $225.3 y cerca piso Bollinger $221.4",
+              "Beta 0.33 — cobertura defensiva ante estacionalidad desfavorable",
+              "Oro alto + DXY débil = flujo hacia activos defensivos",
+              "Sector salud históricamente fuerte en mayo-octubre",
+              "Caída -6.5% en 20 días ofrece entrada con margen de seguridad"
+            ]
+          },
+          {
+            "ticker": "TSLA",
+            "precio_entrada_sugerido": 388.0,
+            "precio_objetivo": 400.6,
+            "stop_loss": 370.0,
+            "capital_asignar_pct": 7,
+            "confianza": "MEDIA",
+            "justificacion": "TSLA muestra una configuración técnica atractiva de corto plazo: MACD cruzó al alza (0.726 vs señal -1.170) confirmando cambio de momentum, RSI en 67.1 tiene espacio antes de sobrecompra, precio sobre MA20 ($372.6) con MA50 en $383.7 actuando como soporte dinámico. El objetivo en $400.6 es la resistencia técnica clara con risk/reward de 1.6x. Sin embargo, los fundamentales son débiles (P/E 358.6, margen neto 3.9%) y la beta 1.92 implica alta volatilidad, por eso el tamaño de posición es pequeño (7%) con stop estricto. El petróleo en $101.8 es un riesgo para TSLA por la narrativa EV vs combustión, pero también puede acelerar la demanda de vehículos eléctricos. Posición táctica de corto plazo, no estratégica.",
+            "factores": [
+              "MACD cruzó alcista confirmando cambio de momentum",
+              "RSI 67.1 neutral con espacio hasta sobrecompra",
+              "Precio sobre MA20 con tendencia intacta +8.4% en 20 días",
+              "Resistencia clara en $400.6 — objetivo definido",
+              "Volumen 1.0x normal — entrada sin exceso especulativo",
+              "Petróleo $101.8 puede impulsar narrativa EV"
+            ]
+          }
+        ],
+        "señales_venta": [
+          {
+            "ticker": "META",
+            "razon": "META presenta la peor configuración técnica de las posiciones abiertas: caída de -9.8% en 5 días, precio ($608.75) por debajo de MA20 ($647.1) Y MA50 ($630.1) — doble señal de debilidad estructural. El MACD está profundamente bajista (6.795 vs señal 12.129, divergencia de -5.3 puntos). El volumen de 1.3x promedio en la caída indica presión vendedora institucional activa, no una corrección menor. El precio está actualmente en el precio de entrada ($608.75), lo que significa que seguir manteniendo implica asumir riesgo adicional con tendencia deteriorada. El stop en $570.00 está a -6.4% del precio actual, pero dado que el contexto técnico sigue empeorando y el price action está por debajo de ambas medias móviles, es más prudente cerrar ahora en breakeven y preservar el capital para mejores oportunidades. La regla de aprendizaje acumulado aplica: cuando múltiples señales técnicas deterioran simultáneamente, el costo de oportunidad de mantener supera el potencial alcista."
+          }
+        ],
+        "acciones_mantener": [
+          "MSFT",
+          "NVDA"
+        ],
+        "distribucion_capital": {
+          "en_operaciones": 52,
+          "en_caja": 48,
+          "nota": "Con la salida de META se libera ~$608 en capital. Las nuevas posiciones JNJ (8%) y TSLA (7%) suman ~$1,575 adicionales en riesgo. Mantenemos MSFT y NVDA que muestran fundamentales sólidos con correcciones técnicas moderadas y stops bien definidos. El 48% en caja es intencional: la estacionalidad desfavorable mayo-octubre, el oro en máximos históricos ($4,619) y el dólar débil sugieren que preservar liquidez es una posición activa, no pasiva. Si el mercado corrige 5-8% en las próximas semanas, tendremos capital para comprar calidad en descuento. No se expande tech más allá del límite del 40% del portafolio dado que MSFT y NVDA ya representan exposición tech significativa."
+        },
+        "aprendizaje_del_dia": "El breakeven es una salida válida y racional: cuando una posición alcanza su entrada con el contexto técnico deteriorado (precio bajo MA20 y MA50, MACD divergiendo negativamente, volumen vendedor elevado), salir en cero no es un fracaso — es gestión de riesgo profesional. El ego quiere recuperar ganancias que nunca existieron; el sistema racional reconoce que el capital preservado en caja tiene más valor que el capital atrapado en una tendencia bajista esperando una recuperación incierta. Además, la diversificación sectorial con activos defensivos (JNJ) en periodos de estacionalidad desfavorable no es pesimismo — es arquitectura de portafolio inteligente que reduce la correlación y amortigua drawdowns.",
+        "alerta_critica": "META en caída libre técnica: -9.8% en 5 días con precio debajo de MA20 y MA50 simultáneamente y MACD profundamente bajista. Si no se ejecuta la venta hoy, el siguiente soporte relevante es $573.00 (-5.9% desde entrada), lo que activaría el stop con pérdida real. Actuar antes de que el stop se convierta en una pérdida evitable."
+      },
+      "resumen_breve": "El mercado presenta un sesgo alcista moderado con S&P 500 +11.12% en 30 días y Fear&Greed en 65/100, pero señales defensivas persisten: oro en $4,619, dólar débil (DXY 98.2) y estacionalidad históricamente desfavorable (mayo-octubre) exigen selectividad. Las posiciones actuales en MSFT, NVDA y META muestran señales técnicas mixtas que requieren monitoreo activo antes de expandir exposición.",
+      "nivel_riesgo": "BAJO",
+      "vix": 16.989999771118164,
+      "fear_greed": 65
     }
   ],
   "aprendizajes": [
-    "2026-05-03: La sobrecompra simultánea de GOOGL (RSI 86.9) y AMZN (RSI 82.9) en un contexto de estacionalidad desfavorable enseña que el momentum fuerte no siempre es señal de compra — a veces es señal de que el tren ya salió. Las mejores entradas están en activos con fundamentales sólidos que han corregido moderadamente (MSFT -2.4%, NVDA -4.7%) manteniendo su tendencia estructural intacta. Pagar por sobrecompra extrema en zona de resistencia es el error más común en mercados alcistas extendidos."
+    "2026-05-03: La sobrecompra simultánea de GOOGL (RSI 86.9) y AMZN (RSI 82.9) en un contexto de estacionalidad desfavorable enseña que el momentum fuerte no siempre es señal de compra — a veces es señal de que el tren ya salió. Las mejores entradas están en activos con fundamentales sólidos que han corregido moderadamente (MSFT -2.4%, NVDA -4.7%) manteniendo su tendencia estructural intacta. Pagar por sobrecompra extrema en zona de resistencia es el error más común en mercados alcistas extendidos.",
+    "2026-05-03: El breakeven es una salida válida y racional: cuando una posición alcanza su entrada con el contexto técnico deteriorado (precio bajo MA20 y MA50, MACD divergiendo negativamente, volumen vendedor elevado), salir en cero no es un fracaso — es gestión de riesgo profesional. El ego quiere recuperar ganancias que nunca existieron; el sistema racional reconoce que el capital preservado en caja tiene más valor que el capital atrapado en una tendencia bajista esperando una recuperación incierta. Además, la diversificación sectorial con activos defensivos (JNJ) en periodos de estacionalidad desfavorable no es pesimismo — es arquitectura de portafolio inteligente que reduce la correlación y amortigua drawdowns."
   ]
 }

@@ -25,7 +25,7 @@ from email.mime.multipart import MIMEMultipart
 # ============================================================
 
 # --- Anthropic (obligatorio) ---
-ANTHROPIC_API_KEY = "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"
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 # --- Modo de operación ---
 # "paper"  → simulado, sin dinero real
