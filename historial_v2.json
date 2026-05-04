@@ -1,0 +1,179 @@
+{
+  "operaciones": [
+    {
+      "id": "MSFT_2026-05-03 23:08",
+      "ticker": "MSFT",
+      "tipo": "compra",
+      "modo": "paper",
+      "fecha_entrada": "2026-05-03 23:08",
+      "precio_entrada": 414.44,
+      "precio_objetivo": 432.9,
+      "stop_loss": 385.0,
+      "cantidad": 4,
+      "capital_invertido": 1657.76,
+      "confianza": "ALTA",
+      "estado": "abierta",
+      "justificacion": "MSFT presenta la mejor confluencia del universo analizado. Fundamentalmente es el activo más sólido: P/E de 24.7 (más bajo entre las big tech), margen neto del 39.3%, crecimiento del 18.3% y EPS de $16.78. Técnicamente está sobre MA20 y MA50, MACD alcista, RSI en 62.9 (neutral, sin sobrecompra), y precio en zona media de Bollinger con espacio real hacia resistencia en $432.9. La corrección de -2.4% en 5 días ofrece una entrada más limpia después del impulso de +11.0% en 20 días. El dólar débil favorece sus ingresos internacionales. Stop-loss en $385 (-7.1%) dentro de las reglas del agente de riesgo.",
+      "factores": [
+        "P/E 24.7 más barato que peers tech",
+        "Margen neto 39.3% — el más alto del portafolio",
+        "RSI 62.9 — sin sobrecompra, tiene recorrido",
+        "MACD alcista con precio sobre MA20 y MA50",
+        "Precio en zona media Bollinger, lejos del techo",
+        "Corrección de 5 días crea entrada más favorable",
+        "Dólar débil beneficia ingresos internacionales",
+        "Crecimiento 18.3% con beta normal 1.11"
+      ]
+    },
+    {
+      "id": "NVDA_2026-05-03 23:08",
+      "ticker": "NVDA",
+      "tipo": "compra",
+      "modo": "paper",
+      "fecha_entrada": "2026-05-03 23:08",
+      "precio_entrada": 198.45,
+      "precio_objetivo": 216.6,
+      "stop_loss": 184.0,
+      "cantidad": 7,
+      "capital_invertido": 1389.15,
+      "confianza": "MEDIA",
+      "estado": "abierta",
+      "justificacion": "NVDA es el activo con fundamentales más impresionantes del universo: crecimiento del 73.2%, margen neto del 55.6% y caja neta positiva de $51.1B. La corrección de -4.7% en 5 días con RSI en 58.1 (neutral) y precio apenas sobre MA20 ($197.2) ofrece un punto de entrada técnico razonable. El MACD está marginalmente bajista (6.241 vs señal 6.351 — diferencia mínima), lo cual es la única señal de cautela técnica. El precio está en zona media de Bollinger con resistencia en $216.6, dando un potencial del +9.1%. La confianza es MEDIA por el beta alto de 2.33 y el MACD levemente negativo. Se asigna capital conservador. Stop en $184 (-7.3%) cerca del soporte estructural en $177.6.",
+      "factores": [
+        "Crecimiento de ingresos 73.2% — líder absoluto",
+        "Margen neto 55.6% — excelencia operacional",
+        "Caja neta positiva $51.1B sin deuda neta",
+        "RSI 58.1 — espacio para subir sin estar sobrecomprado",
+        "Corrección de -4.7% en 5 días crea oportunidad",
+        "Precio en zona media Bollinger con resistencia clara",
+        "Posición sobre MA20 y MA50",
+        "IA como driver secular de largo plazo"
+      ]
+    },
+    {
+      "id": "META_2026-05-03 23:08",
+      "ticker": "META",
+      "tipo": "compra",
+      "modo": "paper",
+      "fecha_entrada": "2026-05-03 23:08",
+      "precio_entrada": 608.75,
+      "precio_objetivo": 660.0,
+      "stop_loss": 570.0,
+      "cantidad": 2,
+      "capital_invertido": 1217.5,
+      "confianza": "MEDIA",
+      "estado": "abierta",
+      "justificacion": "META es la señal contrarian más interesante del día. Tras caer -9.8% en 5 días, el RSI se sitúa en 43.0 (neutral, casi sobrevendido), el precio está bajo MA20 pero bien por encima del soporte en $573 y el MACD, aunque bajista, muestra momentum decelerando. Fundamentalmente es el activo más barato del grupo growth: P/E 22.1, crecimiento del 33.1%, margen neto del 32.8% y EPS de $27.52. El precio en zona media-baja de Bollinger ($576-$717) con soporte probado en $573 ofrece una relación riesgo/beneficio atractiva. La caída reciente podría ser sobreactuada si no hay fundamento negativo estructural (sin noticias disponibles es un riesgo). Posición de tamaño reducido y conservador dado el MACD bajista.",
+      "factores": [
+        "P/E 22.1 — el más barato entre stocks de crecimiento",
+        "Crecimiento 33.1% con margen neto 32.8%",
+        "Caída -9.8% en 5 días crea oportunidad contrarian",
+        "RSI 43.0 aproximándose a zona sobrevendida",
+        "Soporte fuerte en $573 — amplio margen al stop",
+        "Price en zona media-baja de Bollinger",
+        "EPS $27.52 — generación de valor sólida"
+      ]
+    }
+  ],
+  "reportes": [
+    {
+      "fecha": "2026-05-03 23:08",
+      "analisis": {
+        "resumen_mercado": "El mercado muestra un entorno mixto con sesgo alcista moderado: S&P 500 +11.12% en 30 días, VIX en zona tranquila (17.0) y Fear&Greed en codicia (65/100), pero el oro en $4,620 y el dólar débil (DXY 98.2) sugieren que los inversores mantienen coberturas defensivas. La estacionalidad desfavorable (mayo-octubre) y múltiples activos tech en sobrecompra exigen selectividad y gestión de riesgo estricta.",
+        "nivel_riesgo": "MEDIO",
+        "señales_compra": [
+          {
+            "ticker": "MSFT",
+            "precio_entrada_sugerido": 414.44,
+            "precio_objetivo": 432.9,
+            "stop_loss": 385.0,
+            "capital_asignar_pct": 18,
+            "confianza": "ALTA",
+            "justificacion": "MSFT presenta la mejor confluencia del universo analizado. Fundamentalmente es el activo más sólido: P/E de 24.7 (más bajo entre las big tech), margen neto del 39.3%, crecimiento del 18.3% y EPS de $16.78. Técnicamente está sobre MA20 y MA50, MACD alcista, RSI en 62.9 (neutral, sin sobrecompra), y precio en zona media de Bollinger con espacio real hacia resistencia en $432.9. La corrección de -2.4% en 5 días ofrece una entrada más limpia después del impulso de +11.0% en 20 días. El dólar débil favorece sus ingresos internacionales. Stop-loss en $385 (-7.1%) dentro de las reglas del agente de riesgo.",
+            "factores": [
+              "P/E 24.7 más barato que peers tech",
+              "Margen neto 39.3% — el más alto del portafolio",
+              "RSI 62.9 — sin sobrecompra, tiene recorrido",
+              "MACD alcista con precio sobre MA20 y MA50",
+              "Precio en zona media Bollinger, lejos del techo",
+              "Corrección de 5 días crea entrada más favorable",
+              "Dólar débil beneficia ingresos internacionales",
+              "Crecimiento 18.3% con beta normal 1.11"
+            ]
+          },
+          {
+            "ticker": "NVDA",
+            "precio_entrada_sugerido": 198.45,
+            "precio_objetivo": 216.6,
+            "stop_loss": 184.0,
+            "capital_asignar_pct": 15,
+            "confianza": "MEDIA",
+            "justificacion": "NVDA es el activo con fundamentales más impresionantes del universo: crecimiento del 73.2%, margen neto del 55.6% y caja neta positiva de $51.1B. La corrección de -4.7% en 5 días con RSI en 58.1 (neutral) y precio apenas sobre MA20 ($197.2) ofrece un punto de entrada técnico razonable. El MACD está marginalmente bajista (6.241 vs señal 6.351 — diferencia mínima), lo cual es la única señal de cautela técnica. El precio está en zona media de Bollinger con resistencia en $216.6, dando un potencial del +9.1%. La confianza es MEDIA por el beta alto de 2.33 y el MACD levemente negativo. Se asigna capital conservador. Stop en $184 (-7.3%) cerca del soporte estructural en $177.6.",
+            "factores": [
+              "Crecimiento de ingresos 73.2% — líder absoluto",
+              "Margen neto 55.6% — excelencia operacional",
+              "Caja neta positiva $51.1B sin deuda neta",
+              "RSI 58.1 — espacio para subir sin estar sobrecomprado",
+              "Corrección de -4.7% en 5 días crea oportunidad",
+              "Precio en zona media Bollinger con resistencia clara",
+              "Posición sobre MA20 y MA50",
+              "IA como driver secular de largo plazo"
+            ]
+          },
+          {
+            "ticker": "META",
+            "precio_entrada_sugerido": 608.75,
+            "precio_objetivo": 660.0,
+            "stop_loss": 570.0,
+            "capital_asignar_pct": 12,
+            "confianza": "MEDIA",
+            "justificacion": "META es la señal contrarian más interesante del día. Tras caer -9.8% en 5 días, el RSI se sitúa en 43.0 (neutral, casi sobrevendido), el precio está bajo MA20 pero bien por encima del soporte en $573 y el MACD, aunque bajista, muestra momentum decelerando. Fundamentalmente es el activo más barato del grupo growth: P/E 22.1, crecimiento del 33.1%, margen neto del 32.8% y EPS de $27.52. El precio en zona media-baja de Bollinger ($576-$717) con soporte probado en $573 ofrece una relación riesgo/beneficio atractiva. La caída reciente podría ser sobreactuada si no hay fundamento negativo estructural (sin noticias disponibles es un riesgo). Posición de tamaño reducido y conservador dado el MACD bajista.",
+            "factores": [
+              "P/E 22.1 — el más barato entre stocks de crecimiento",
+              "Crecimiento 33.1% con margen neto 32.8%",
+              "Caída -9.8% en 5 días crea oportunidad contrarian",
+              "RSI 43.0 aproximándose a zona sobrevendida",
+              "Soporte fuerte en $573 — amplio margen al stop",
+              "Price en zona media-baja de Bollinger",
+              "EPS $27.52 — generación de valor sólida"
+            ]
+          }
+        ],
+        "señales_venta": [
+          {
+            "ticker": "GOOGL",
+            "razon": "RSI en 86.9 — zona de sobrecompra extrema, una de las más altas observables en análisis técnico estándar. El precio está exactamente en la resistencia de Bollinger ($380.6) tras subir +30.4% en 20 días y +12% en 5 días. El ratio riesgo/beneficio es completamente desfavorable: el potencial de baja hacia soporte ($300) es del -22% mientras el potencial alcista adicional desde resistencia es mínimo. Aunque los fundamentales son sólidos (P/E 29.4, crecimiento 21.8%), el precio ya descuenta escenarios muy optimistas. En un contexto de estacionalidad desfavorable, vender o no iniciar posición es la decisión correcta."
+          },
+          {
+            "ticker": "AMZN",
+            "razon": "RSI en 82.9 — sobrecomprado, tras subir +27.9% en 20 días. El precio está en máximos de Bollinger ($280.1) coincidiendo exactamente con la resistencia técnica en $268.3. El P/E de 32.1 con margen neto de solo 12.2% lo hace el menos eficiente fundamentalmente entre los sobrecomprados. Beta de 1.38 amplifica la exposición al riesgo en un mercado con estacionalidad desfavorable. Relación riesgo/beneficio negativa desde los niveles actuales."
+          },
+          {
+            "ticker": "JNJ",
+            "razon": "Tendencia bajista clara: -6.5% en 20 días, precio bajo MA20 y MA50, MACD bajista y acelerando negativamente (-3.243 vs señal -2.788). Aunque el RSI en 34.2 se acerca a sobrevendido y está cerca del piso de Bollinger, la tendencia fundamental de precio es negativa sin señal de reversión confirmada. Crecimiento del 9.9% es el más bajo del universo analizado y no justifica iniciar posición en tendencia bajista sin catalizador positivo visible."
+          }
+        ],
+        "acciones_mantener": [
+          "TSLA",
+          "JPM",
+          "BRK-B",
+          "AAPL"
+        ],
+        "distribucion_capital": {
+          "en_operaciones": 45,
+          "en_caja": 55,
+          "nota": "Se despliega el 45% del capital ($4,725) en 3 posiciones con alta confluencia técnico-fundamental: MSFT 18% (~$1,890), NVDA 15% (~$1,575), META 12% (~$1,260). Se mantiene el 55% en caja ($5,775) por tres razones: (1) estacionalidad históricamente desfavorable mayo-octubre, (2) múltiples activos del universo en sobrecompra extrema indicando mercado extendido, (3) oro en $4,620 señala que el dinero inteligente mantiene coberturas — prudencia recomendada. La caja protege capital y permite aprovechar correcciones futuras. Se cumple la regla del agente de riesgo de máximo 60% de exposición y máximo 20% por acción."
+        },
+        "aprendizaje_del_dia": "La sobrecompra simultánea de GOOGL (RSI 86.9) y AMZN (RSI 82.9) en un contexto de estacionalidad desfavorable enseña que el momentum fuerte no siempre es señal de compra — a veces es señal de que el tren ya salió. Las mejores entradas están en activos con fundamentales sólidos que han corregido moderadamente (MSFT -2.4%, NVDA -4.7%) manteniendo su tendencia estructural intacta. Pagar por sobrecompra extrema en zona de resistencia es el error más común en mercados alcistas extendidos.",
+        "alerta_critica": "GOOGL y AMZN con RSI por encima de 82 simultáneamente en un mercado con estacionalidad desfavorable (mayo-octubre) y oro en máximos históricos ($4,620) es una señal de alerta sistémica. Si se mantienen posiciones en estos activos, considerar coberturas o reducción de exposición. El oro elevado sugiere que capital institucional está comprando protección — no ignorar esta señal macro divergente."
+      },
+      "resumen_breve": "El mercado muestra un entorno mixto con sesgo alcista moderado: S&P 500 +11.12% en 30 días, VIX en zona tranquila (17.0) y Fear&Greed en codicia (65/100), pero el oro en $4,620 y el dólar débil (DXY 98.2) sugieren que los inversores mantienen coberturas defensivas. La estacionalidad desfavorable (mayo-octubre) y múltiples activos tech en sobrecompra exigen selectividad y gestión de riesgo estricta.",
+      "nivel_riesgo": "BAJO",
+      "vix": 16.989999771118164,
+      "fear_greed": 65
+    }
+  ],
+  "aprendizajes": [
+    "2026-05-03: La sobrecompra simultánea de GOOGL (RSI 86.9) y AMZN (RSI 82.9) en un contexto de estacionalidad desfavorable enseña que el momentum fuerte no siempre es señal de compra — a veces es señal de que el tren ya salió. Las mejores entradas están en activos con fundamentales sólidos que han corregido moderadamente (MSFT -2.4%, NVDA -4.7%) manteniendo su tendencia estructural intacta. Pagar por sobrecompra extrema en zona de resistencia es el error más común en mercados alcistas extendidos."
+  ]
+}
